@@ -9,8 +9,8 @@ import Foundation
 
 class StocksViewModel {
     
-    private var displayStocks = [StocksModel_API]()
-    private var mainStocks = [StocksModel_API]()
+    var displayStocks = [StocksModel_API]()
+    var mainStocks = [StocksModel_API]()
     private var displayCahceStocks = [StocksModel_API]()
     
     private var filterOptions = [[FilterOption]]()
